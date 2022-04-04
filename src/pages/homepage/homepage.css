@@ -1,0 +1,13 @@
+.homepage-container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: center;
+    margin: 4rem 10rem;
+    border-radius: 2rem;
+    box-shadow: 4px 6px 5px 0px rgba(0, 0, 0, 0.332);
+    background: -webkit-linear-gradient(left, var(--primary-color), var(--secondary-color));
+}
+
+.information{
+    padding: 5rem;
+}
