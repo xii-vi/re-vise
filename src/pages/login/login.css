@@ -1,0 +1,6 @@
+.login-btn{
+    width: 80%;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    margin-top: 1rem;
+}
