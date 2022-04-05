@@ -1,4 +1,12 @@
 body{
-    
     font-family: 'Syne', sans-serif;
+}
+.sidebar-btn{
+    width: max-content;
+    color: black;
+    margin-top: 1rem;
+}
+.note-page-layout{
+    display: grid;
+    grid-template-columns: 30% 60%;
 }

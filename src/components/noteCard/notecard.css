@@ -1,0 +1,30 @@
+.notes-form{
+    margin-top: 5rem;
+}
+
+input,textarea,.note-footer{
+    width: 80%;
+    height: 80%;
+    border: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Syne', sans-serif;
+    resize: none;
+    outline: none;
+}
+
+.note-footer{
+    background-color: var(--white-color);
+}
+
+.saved-note-card{
+    width:20rem;
+    background-color: var(--white-color);
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.notes-action{
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+}

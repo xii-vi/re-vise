@@ -4,7 +4,7 @@ export const Homepage = () => {
     return(
 <div className="homepage-container">
 <div>
-    <img class="img-fluid" src="/asset/sapiens.svg" alt="homepage-svg"/>
+    <img class="img-fluid" src="/asset/homepage.svg" alt="homepage-svg"/>
 </div>
 <div className="information">
     <h1 className="pt-5">RE-VISE</h1>
