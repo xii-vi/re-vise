@@ -26,7 +26,7 @@ export const Signup = () => {
 return(
     <div className="signup homepage-container">
         <div>
-        <img class="img-fluid" src="/asset/signup.svg" alt="homepage-svg"/>
+        <img src="/asset/signup.svg" alt="homepage-svg"/>
         </div>
         <div className="container-authentication" >
     <form className="p-5 center-flex signup-form" onSubmit={(e)=> submitHandler(e, username, email, password)}>

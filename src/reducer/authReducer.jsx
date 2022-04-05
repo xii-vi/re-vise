@@ -15,7 +15,7 @@ const authReducer=(state, dispatch)=>{
 }
 
 const loginReducer=(state, dispatch)=>{
- switch(dispatch.type){
+switch(dispatch.type){
     case "SET_USERNAME":  
             return {...state, username:dispatch.payload}
     case "SET_EMAIL":

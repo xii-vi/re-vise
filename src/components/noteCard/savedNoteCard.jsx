@@ -10,12 +10,12 @@ export const SavedNoteCard = ({note}) => {
                 <p>{body}</p>
             </div>
         <div className="notes-action flex"> 
-            <i class="fas fa-edit"></i>
-            <i class="fas fa-thumbtack"></i>
-            <i class="fa fa-palette"></i>
-            <i class="fa fa-tag"></i>
-            <i class="fa fa-trash"></i>
-            <i class="fa fa-archive"></i>
+            <i className="fas fa-edit"></i>
+            <i className="fas fa-thumbtack"></i>
+            <i className="fa fa-palette"></i>
+            <i className="fa fa-tag"></i>
+            <i className="fa fa-trash"></i>
+            <i className="fa fa-archive"></i>
         </div>
         </div>
     )

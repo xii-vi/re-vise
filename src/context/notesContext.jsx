@@ -1,4 +1,4 @@
-import { useState, createContext, useContext, useReducer, useEffect } from 'react';
+import { useState, createContext, useContext, useReducer } from 'react';
 import { NoteReducer } from "../reducer/noteReducer";
 
 const noteContext = createContext();

@@ -36,11 +36,11 @@ const check = () => newNoteDispatch({type: "PIN_NOTE"});
           <button className="btn btn-primary" type="submit">Add note</button>
           </div>
           <div className="nav-pills-left">
-          <i class="fas fa-thumbtack" onClick={check}></i>
-          <i class="fa fa-palette"></i>
-          <i class="fa fa-tag"></i>
-          <i class="fa fa-trash"></i>
-          <i class="fa fa-archive"></i>
+          <i className="fas fa-thumbtack" onClick={check}></i>
+          <i className="fa fa-palette"></i>
+          <i className="fa fa-tag"></i>
+          <i className="fa fa-trash"></i>
+          <i className="fa fa-archive"></i>
           </div>
         </div>
       </form>

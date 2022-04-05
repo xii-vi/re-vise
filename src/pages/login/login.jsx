@@ -32,7 +32,7 @@ export const Login = () => {
         
     <div className="login homepage-container">
         <div>
-        <img class="img-fluid" src="/asset/login.svg" alt="homepage-svg"/>
+        <img src="/asset/login.svg" alt="homepage-svg"/>
         </div>
     <div className="container-authentication-login py-5">
         <form className="p-5 center-flex login-form" onSubmit={(e)=> submitHandler(e, email,password)}>
@@ -47,14 +47,14 @@ export const Login = () => {
                     <input className="p-2" type="password" placeholder="password" value={password} required onChange={(e)=> loginDispatch({type:"SET_PASSWORD",payload:e.target.value})}/>
                 </div>
                 <div className="py-2">
-                    <a href="#">Forgot Password ?</a>
+                    <p>Forgot Password ?</p>
                 </div>
                 <div className="py-3">
                     <button className="btn btn-outline-primary login-btn">Login</button>
                     <button className="btn btn-outline-primary login-btn" onClick={testHandler}>Test</button>
                 </div>
                 <Link to="/signup">
-                <p className="pb-2">New here ? <a className="text-bold">Register Now</a></p>
+                <p className="pb-2">New here ? <p className="text-bold">Register Now</p></p>
                 </Link>
             </div>
         </form>

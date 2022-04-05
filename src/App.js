@@ -1,5 +1,4 @@
 import "./App.css";
-import { Navbar } from "./components/navbar/navbar";
 import { Homepage } from "./pages/homepage/homepage";
 import { Route, Routes} from "react-router-dom";
 import { Notes } from "./pages/note/note";
@@ -9,7 +8,6 @@ import { Signup } from "./pages/signUp/signup";
 function App() {
   return (
     <div>
-      {/* <Navbar /> */}
       <Routes>
       <Route path="/" element = {<Homepage />} />
       <Route path="/notes" element = {<Notes />} />

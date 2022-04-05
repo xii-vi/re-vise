@@ -4,7 +4,7 @@ import { SavedNoteCard } from "../../components/noteCard/savedNoteCard"
 import { Sidebar } from "../../components/sidebar/sidebar"
 import { useNote } from "../../context/notesContext"
 export const Notes = () => {
-    const {newNoteState,notes} = useNote();
+    const {notes} = useNote();
     return(
         <>
         <Navbar />
